@@ -1,0 +1,22 @@
+{
+  "artifact_id": "BM_TAWERET",
+  "question": "What is its height in centimeters?",
+  "status": "insufficient_evidence",
+  "answer": "I do not have enough information in the supplied sources to answer this question.",
+  "sources": [],
+  "retrieved_chunks": [
+    {
+      "chunk_id": "BM_TAWERET:000",
+      "artifact_id": "BM_TAWERET",
+      "title": "Taweret",
+      "text": "This small figure depicts Taweret with a hippopotamus-like head and upright body. Its mottled surface and surviving carved details come from the photographed object.",
+      "start_char": 0,
+      "end_char": 165,
+      "source_url": "https://github.com/BritishMuseumDH/tawaretPink",
+      "similarity": 0.133838
+    }
+  ],
+  "generator_used": false,
+  "generated_candidate": null,
+  "reason": "No measurements are supplied for this artifact."
+}

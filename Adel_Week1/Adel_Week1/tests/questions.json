@@ -1,0 +1,19 @@
+[
+  {"id":"S1","artifact_id":"NEFERTITI_REPLICA","question":"Is this exhibit a scan of the ancient original?","supported":true,"expected_terms":["not a scan of the ancient original"],"expected_title_terms":["replica"],"expected_source":"https://github.com/mrdoob/three.js/tree/dev/examples/models/gltf/Nefertiti"},
+  {"id":"S2","artifact_id":"BM_TAWERET","question":"What animal does Taweret's head resemble?","supported":true,"expected_terms":["hippopotamus"],"expected_source":"https://github.com/BritishMuseumDH/tawaretPink"},
+  {"id":"S3","artifact_id":"BM_AMUN_RAM","question":"Which king is between the ram's front legs?","supported":true,"expected_terms":["Taharqo"],"expected_source":"https://github.com/BritishMuseumDH/amunRam"},
+  {"id":"S4","artifact_id":"EG_PA_004","question":"What was paid to the workforce as salaries?","supported":true,"expected_terms":["grain","dates"],"expected_source":"https://www.metmuseum.org/art/collection/search/545455"},
+  {"id":"S5","artifact_id":"EG_PA_003","question":"Can the letter's content be determined?","supported":true,"expected_terms":["not enough","content"],"expected_source":"https://www.metmuseum.org/art/collection/search/545457"},
+  {"id":"S6","artifact_id":"EG_PA_008","question":"Who wrote the letter and to whom?","supported":true,"expected_terms":["Tet","Djehuti"],"expected_source":"https://www.metmuseum.org/art/collection/search/544847"},
+  {"id":"S7","artifact_id":"EG_SL_028","question":"What was the magical stela meant to protect against?","supported":true,"expected_terms":["venomous bites","wounds"],"expected_source":"https://www.metmuseum.org/art/collection/search/546037"},
+  {"id":"S8","artifact_id":"EG_PA_030","question":"How many columns does Imhotep's papyrus contain?","supported":true,"expected_terms":["182"],"expected_source":"https://www.metmuseum.org/art/collection/search/551786"},
+  {"id":"U1","artifact_id":"BM_TAWERET","question":"What is its height in centimeters?","supported":false},
+  {"id":"U2","artifact_id":"BM_AMUN_RAM","question":"What was its latest auction price?","supported":false},
+  {"id":"U3","artifact_id":"NEFERTITI_REPLICA","question":"What is its current room number?","supported":false},
+  {"id":"U4","artifact_id":"UNKNOWN_999","question":"Who made this object?","supported":false},
+  {"id":"U5","artifact_id":"EG_PA_011","question":"What does this papyrus say?","supported":false},
+  {"id":"U6","artifact_id":"BM_AMUN_RAM","question":"What color is the ram?","supported":false},
+  {"id":"U7","artifact_id":"BM_TAWERET","question":"Who carved this figurine?","supported":false},
+  {"id":"U8","artifact_id":"EG_PA_004","question":"How much gold was given as workforce salaries?","supported":false},
+  {"id":"U9","artifact_id":"BM_TAWERET","question":"Is this figurine 25 cm tall?","supported":false}
+]

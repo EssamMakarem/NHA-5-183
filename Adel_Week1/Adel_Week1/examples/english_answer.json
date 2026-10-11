@@ -1,0 +1,31 @@
+{
+  "artifact_id": "BM_AMUN_RAM",
+  "question": "Which king is between the ram's front legs?",
+  "status": "answered",
+  "answer": "A recumbent ram shelters a small figure of King Taharqo between its front legs. [1]",
+  "sources": [
+    {
+      "label": "[1]",
+      "artifact_id": "BM_AMUN_RAM",
+      "title": "Ram of Amun",
+      "url": "https://github.com/BritishMuseumDH/amunRam",
+      "evidence": "A recumbent ram shelters a small figure of King Taharqo between its front legs."
+    }
+  ],
+  "retrieved_chunks": [
+    {
+      "chunk_id": "BM_AMUN_RAM:000",
+      "artifact_id": "BM_AMUN_RAM",
+      "title": "Ram of Amun",
+      "text": "A recumbent ram shelters a small figure of King Taharqo between its front legs. The carved curls, legs and inscribed base can be examined in this photogrammetric model.",
+      "start_char": 0,
+      "end_char": 168,
+      "source_url": "https://github.com/BritishMuseumDH/amunRam",
+      "similarity": 0.538611
+    }
+  ],
+  "generator_used": true,
+  "generated_candidate": "King Taharqo",
+  "answer_method": "generated_span_with_source_sentence",
+  "reason": "The displayed answer is a verbatim source sentence; answer_method records how it was selected."
+}

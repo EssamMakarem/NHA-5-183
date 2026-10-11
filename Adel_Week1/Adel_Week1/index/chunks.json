@@ -1,0 +1,630 @@
+{
+  "format": 1,
+  "corpus_sha256": "09a7638753063837330c3d7f96b77c8aa5638e1809065e6f078c0a75885fa430",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "chunking": {
+    "max_words": 80,
+    "overlap_words": 16
+  },
+  "artifact_ids": [
+    "EG_PA_001",
+    "EG_PA_002",
+    "EG_PA_003",
+    "EG_PA_004",
+    "EG_PA_005",
+    "EG_PA_006",
+    "EG_PA_007",
+    "EG_PA_008",
+    "EG_PA_009",
+    "EG_PA_010",
+    "EG_PA_011",
+    "EG_PA_012",
+    "EG_PA_013",
+    "EG_PA_015",
+    "EG_PA_016",
+    "EG_PA_017",
+    "EG_PA_018",
+    "EG_PA_020",
+    "EG_PA_021",
+    "EG_PA_022",
+    "EG_PA_023",
+    "EG_PA_024",
+    "EG_PA_025",
+    "EG_PA_026",
+    "EG_PA_027",
+    "EG_PA_028",
+    "EG_PA_029",
+    "EG_PA_030",
+    "EG_SL_001",
+    "EG_SL_002",
+    "EG_SL_003",
+    "EG_SL_005",
+    "EG_SL_006",
+    "EG_SL_007",
+    "EG_SL_008",
+    "EG_SL_009",
+    "EG_SL_010",
+    "EG_SL_011",
+    "EG_SL_012",
+    "EG_SL_013",
+    "EG_SL_014",
+    "EG_SL_016",
+    "EG_SL_018",
+    "EG_SL_019",
+    "EG_SL_020",
+    "EG_SL_021",
+    "EG_SL_022",
+    "EG_SL_023",
+    "EG_SL_024",
+    "EG_SL_025",
+    "EG_SL_026",
+    "EG_SL_027",
+    "EG_SL_028",
+    "EG_SL_030",
+    "BONN_GV175",
+    "NEFERTITI_REPLICA",
+    "BM_AMUN_RAM",
+    "BM_AMENHOTEP_HEAD",
+    "BM_MENTUEMHAT",
+    "BM_PRUDHOE_LION",
+    "BM_RAMESSES_IV",
+    "BM_SEKHMET_EA60",
+    "BM_ROY",
+    "BM_TAWERET",
+    "BM_ISIS_HORUS",
+    "BERLIN_TAIRKAP_OUTER",
+    "BERLIN_TAIRKAP_INNER"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "EG_PA_001:000",
+      "artifact_id": "EG_PA_001",
+      "title": "Papyrus sheet",
+      "text": "Discovered in the debris from the forecourt of a tomb at Thebes, this group of objects would have belonged to a scribe. Included here are a wooden palette (containing an unused cake of black ink) (a) and three reed brushes (b–d); a skein of thread (e); several sheets of papyrus (h1–3, i); a string to bind the papyrus (f); another stringto tie the papyrus to the palette (g); and linen cloth that had been wrapped around the entire set (j).",
+      "start_char": 0,
+      "end_char": 441,
+      "source_url": "https://www.metmuseum.org/art/collection/search/550134"
+    },
+    {
+      "chunk_id": "EG_PA_002:000",
+      "artifact_id": "EG_PA_002",
+      "title": "Heqanakht Papyrus Fragments",
+      "text": "These papyrus fragments contain letters and accounts written by Heqanakht and one or more scribes. They provide insights into the domestic and financial affairs of a middle-class Egyptian family during the early 12th Dynasty",
+      "start_char": 0,
+      "end_char": 224,
+      "source_url": "https://www.metmuseum.org/art/collection/search/545452"
+    },
+    {
+      "chunk_id": "EG_PA_003:000",
+      "artifact_id": "EG_PA_003",
+      "title": "Papyrus fragment",
+      "text": "According to the style of writing, this letter was written during the Middle Kingdom. However, not enough of it remains to determine anything about its content. Both sides were written on a papyrus that was used before.",
+      "start_char": 0,
+      "end_char": 219,
+      "source_url": "https://www.metmuseum.org/art/collection/search/545457"
+    },
+    {
+      "chunk_id": "EG_PA_004:000",
+      "artifact_id": "EG_PA_004",
+      "title": "Accounts of workforce salaries",
+      "text": "This papyrus fragment contains accounts of grain and dates given as salaries to a workforce. It records payments made on specific days around the end of the year and the beginning of the new year.",
+      "start_char": 0,
+      "end_char": 196,
+      "source_url": "https://www.metmuseum.org/art/collection/search/545455"
+    },
+    {
+      "chunk_id": "EG_PA_005:000",
+      "artifact_id": "EG_PA_005",
+      "title": "Heqanakht Letter I",
+      "text": "This is the front side (recto) of Letter I, written probably by Heqanakht himself in hieratic script with black ink. It is addressed to his family and gives instructions about renting land, sending workers to Perhaa, and providing rations for one of them.",
+      "start_char": 0,
+      "end_char": 255,
+      "source_url": "https://www.metmuseum.org/art/collection/search/545445"
+    },
+    {
+      "chunk_id": "EG_PA_006:000",
+      "artifact_id": "EG_PA_006",
+      "title": "Heqanakht Letter V",
+      "text": "This papyrus contains accounts written as a formal document. The accounts date to years 5 and 8 and concern grain, cattle, bread, and wood.",
+      "start_char": 0,
+      "end_char": 139,
+      "source_url": "https://www.metmuseum.org/art/collection/search/545449"
+    },
+    {
+      "chunk_id": "EG_PA_007:000",
+      "artifact_id": "EG_PA_007",
+      "title": "Papyrus sheet",
+      "text": "Discovered in the debris from the forecourt of a tomb at Thebes, this group of objects would have belonged to a scribe. Included here are a wooden palette (containing an unused cake of black ink) (a) and three reed brushes (b–d); a skein of thread (e); several sheets of papyrus (h1–3, i); a string to bind the papyrus (f); another string to tie the papyrus to the palette (g); and linen cloth that had been wrapped around the entire set",
+      "start_char": 0,
+      "end_char": 437,
+      "source_url": "https://www.metmuseum.org/art/collection/search/552619"
+    },
+    {
+      "chunk_id": "EG_PA_007:001",
+      "artifact_id": "EG_PA_007",
+      "title": "Papyrus sheet",
+      "text": "papyrus to the palette (g); and linen cloth that had been wrapped around the entire set (j).",
+      "start_char": 350,
+      "end_char": 442,
+      "source_url": "https://www.metmuseum.org/art/collection/search/552619"
+    },
+    {
+      "chunk_id": "EG_PA_008:000",
+      "artifact_id": "EG_PA_008",
+      "title": "Letter written in hieratic script on papyrus",
+      "text": "This papyrus letter was written by a man named Tet to his lord, Djehuti, asking him to correct a situation caused by insulting a dependent of the high priest of Heliopolis. The letter was folded and addressed to the recipient on the back of the sheet.",
+      "start_char": 0,
+      "end_char": 251,
+      "source_url": "https://www.metmuseum.org/art/collection/search/544847"
+    },
+    {
+      "chunk_id": "EG_PA_009:000",
+      "artifact_id": "EG_PA_009",
+      "title": "Heqanakht Account VI",
+      "text": "This papyrus contains letters and accounts written by Heqanakht and one or more scribes. The documents provide insights into the domestic and financial affairs of a middle-class Egyptian family during the early twelfth dynasty.",
+      "start_char": 0,
+      "end_char": 227,
+      "source_url": "https://www.metmuseum.org/art/collection/search/545450"
+    },
+    {
+      "chunk_id": "EG_PA_010:000",
+      "artifact_id": "EG_PA_010",
+      "title": "Fragments of Papyrus",
+      "text": "These papyrus fragments come from one or more funerary papyri dating to the Saite Period or later.",
+      "start_char": 0,
+      "end_char": 98,
+      "source_url": "https://www.metmuseum.org/art/collection/search/553675"
+    },
+    {
+      "chunk_id": "EG_PA_012:000",
+      "artifact_id": "EG_PA_012",
+      "title": "Heqanahkt Letter II",
+      "text": "This papyrus letter describes how Heqanakht’s wife was mistreated by members of his household. Heqanakht advises the recipient to correct their behavior and includes a list of salaries with instructions for their distribution.",
+      "start_char": 0,
+      "end_char": 226,
+      "source_url": "https://www.metmuseum.org/art/collection/search/545446"
+    },
+    {
+      "chunk_id": "EG_PA_015:000",
+      "artifact_id": "EG_PA_015",
+      "title": "Heqanakht's account, written over an effaced letter regarding two female servants",
+      "text": "This papyrus contains an account written by Heqanakht concerning flax and grain. The sheet had been used earlier for a letter about copper and two female servants, traces of which remain visible beneath the later writing.",
+      "start_char": 0,
+      "end_char": 221,
+      "source_url": "https://www.metmuseum.org/art/collection/search/551043"
+    },
+    {
+      "chunk_id": "EG_PA_016:000",
+      "artifact_id": "EG_PA_016",
+      "title": "Meketre papyrus",
+      "text": "These pieces are too fragmentary to allow reconstructing their original context, but the few preserved words on the pieces on right left suggested they were inscribed for an account. A few pieces on the right have faded signs in red ink.",
+      "start_char": 0,
+      "end_char": 237,
+      "source_url": "https://www.metmuseum.org/art/collection/search/565440"
+    },
+    {
+      "chunk_id": "EG_PA_018:000",
+      "artifact_id": "EG_PA_018",
+      "title": "Papyrus of Sitnebsekhtu, Heqanakht Letter IV",
+      "text": "This papyrus letter was sent to a woman named Sitnebsekhtu by her daughter, who had the same name. It contains greetings and a request concerning a person named Gereg, but part of the text is missing, so the reason for the request is unknown.",
+      "start_char": 0,
+      "end_char": 242,
+      "source_url": "https://www.metmuseum.org/art/collection/search/545448"
+    },
+    {
+      "chunk_id": "EG_PA_020:000",
+      "artifact_id": "EG_PA_020",
+      "title": "Meketre papyrus",
+      "text": "This letter was written by Netjeriuhem to an unnamed recipient concerning the sending of the writer's subordinate with various types of birds. It has been suggested that the letter was in fact written as an exercise, meant to familiarize the apprentice copying the text with common terms and formulae.",
+      "start_char": 0,
+      "end_char": 301,
+      "source_url": "https://www.metmuseum.org/art/collection/search/545453"
+    },
+    {
+      "chunk_id": "EG_PA_022:000",
+      "artifact_id": "EG_PA_022",
+      "title": "Papyrus inscribed with accounts of beer and bulls",
+      "text": "The subject-matter on the recto (front side of the papyrus), where the beginning is damaged, includes beer, bulls, and possibly land; on the verso (back side of the papyrus), the text begins with: “Account of the land which the Master (life, prosperity and health) gave to the ka-servant Ipy”. This “master” may well have been the deceased for whom Ipy acted as ka-servant (funerary priest). The recto area is divided into squares that contain numbers.",
+      "start_char": 0,
+      "end_char": 452,
+      "source_url": "https://www.metmuseum.org/art/collection/search/545454"
+    },
+    {
+      "chunk_id": "EG_PA_024:000",
+      "artifact_id": "EG_PA_024",
+      "title": "Sheet from the Papyrus of Amenhotep",
+      "text": "Two fragments of a Book of the Dead papyrus in the collection belonged to a man named Amenhotep who was overseer of the builders of Amun. This fragment preserves parts of Chapters 42 and 64. The second fragment preserves Chapter 78.",
+      "start_char": 0,
+      "end_char": 232,
+      "source_url": "https://www.metmuseum.org/art/collection/search/554676"
+    },
+    {
+      "chunk_id": "EG_PA_025:000",
+      "artifact_id": "EG_PA_025",
+      "title": "Heqanakht Account VII",
+      "text": "This papyrus contains an account of emmer wheat and flax owed by Sitnebsekhtu to Heqanakht. The document lists grain stored in different locations, counts sheaves of flax, and includes instructions about salary payments.",
+      "start_char": 0,
+      "end_char": 220,
+      "source_url": "https://www.metmuseum.org/art/collection/search/545451"
+    },
+    {
+      "chunk_id": "EG_PA_026:000",
+      "artifact_id": "EG_PA_026",
+      "title": "Heqanakht Letter (III) to Merisu",
+      "text": "This papyrus is a letter written by Heqanakht to the Overseer of the Delta, Herunefer. It is a single sheet written in red and black ink and was discovered unopened, tied with string, and sealed with a lump of mud.",
+      "start_char": 0,
+      "end_char": 214,
+      "source_url": "https://www.metmuseum.org/art/collection/search/545447"
+    },
+    {
+      "chunk_id": "EG_PA_027:000",
+      "artifact_id": "EG_PA_027",
+      "title": "Book of the Dead of Khamhor",
+      "text": "This Book of Coming Forth by Day, commonly known as the Book of the Dead, was inscribed for the high official Khamhor. The papyrus was found near Tomb MMA 57 and likely came from Khamhor’s burial. Parts of the same papyrus are held by other museums.",
+      "start_char": 0,
+      "end_char": 249,
+      "source_url": "https://www.metmuseum.org/art/collection/search/590941"
+    },
+    {
+      "chunk_id": "EG_PA_028:000",
+      "artifact_id": "EG_PA_028",
+      "title": "Funerary Papyrus of Nauny",
+      "text": "This funerary papyrus was folded eight times and placed across the knees of Nauny’s mummy. It contains a Litany of Re, depicting the sun god in different forms along with mummiform figures associated with Nauny",
+      "start_char": 0,
+      "end_char": 210,
+      "source_url": "https://www.metmuseum.org/art/collection/search/545191"
+    },
+    {
+      "chunk_id": "EG_PA_029:000",
+      "artifact_id": "EG_PA_029",
+      "title": "Religious text of Tanaweruow, daughter of Hartophnakhthes and Tatita",
+      "text": "This papyrus is a religious mortuary text written for the deceased woman Tanaweruow. It describes the funerary rituals performed by her father, Hartophnakthes, including preparing her tomb, reciting prayers and glorifications, and performing final rites and libations.",
+      "start_char": 0,
+      "end_char": 268,
+      "source_url": "https://www.metmuseum.org/art/collection/search/557653"
+    },
+    {
+      "chunk_id": "EG_PA_030:000",
+      "artifact_id": "EG_PA_030",
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes)",
+      "text": "This papyrus is a Book of Coming Forth by Day, commonly known as a Book of the Dead, inscribed for Imhotep, a priest of the god Horus. It contains 182 columns of spells, incantations, and prayers intended to help him safely transition to eternal life. The text is written in hieratic script and illustrated with vignettes and drawings.",
+      "start_char": 0,
+      "end_char": 335,
+      "source_url": "https://www.metmuseum.org/art/collection/search/551786"
+    },
+    {
+      "chunk_id": "EG_SL_001:000",
+      "artifact_id": "EG_SL_001",
+      "title": "Stela of Rehuerdjersen",
+      "text": "Rehuerdjersen was treasurer under Amenemhat I and Senwosret I, the first two kings of Dynasty 12. This stela comes from a Rehuerdjersen's cenotaph at Abydos, and the style dates from the reign of Amenemhat II, some forty years after the treasurer's death. The owner is shown seated at the left, behind a table piled with stylized loaves of bread; at the right, holding a bird for offering, is his brother, Heqatifi, who commissioned the stela. The inscription consists largely of",
+      "start_char": 0,
+      "end_char": 479,
+      "source_url": "https://www.metmuseum.org/art/collection/search/544348"
+    },
+    {
+      "chunk_id": "EG_SL_001:001",
+      "artifact_id": "EG_SL_001",
+      "title": "Stela of Rehuerdjersen",
+      "text": "bird for offering, is his brother, Heqatifi, who commissioned the stela. The inscription consists largely of the names of other family members.",
+      "start_char": 371,
+      "end_char": 514,
+      "source_url": "https://www.metmuseum.org/art/collection/search/544348"
+    },
+    {
+      "chunk_id": "EG_SL_002:000",
+      "artifact_id": "EG_SL_002",
+      "title": "Stela of Hetepi",
+      "text": "The rectangular stela belongs to a man named Hetepi, born of Sitishtek. His hair is short, and he is shown wearing a white kilt with a triangular front panel. Hetepi stands with a long walking stick in one hand and a shorter staff in the other. In front of him is a rack supporting a table and two necked globular jars. Various cuts of meat, as well as vegetables and bread loaves, are placed over the table top with raised",
+      "start_char": 0,
+      "end_char": 423,
+      "source_url": "https://www.metmuseum.org/art/collection/search/556609"
+    },
+    {
+      "chunk_id": "EG_SL_002:001",
+      "artifact_id": "EG_SL_002",
+      "title": "Stela of Hetepi",
+      "text": "meat, as well as vegetables and bread loaves, are placed over the table top with raised edge.",
+      "start_char": 336,
+      "end_char": 429,
+      "source_url": "https://www.metmuseum.org/art/collection/search/556609"
+    },
+    {
+      "chunk_id": "EG_SL_005:000",
+      "artifact_id": "EG_SL_005",
+      "title": "Stela of the Steward Mentuwoser",
+      "text": "This rectangular stone stela honors the official Mentuwoser. It depicts him at a funeral banquet with his family and offerings, while inscriptions describe his loyal service and his role as a steward and granary official.",
+      "start_char": 0,
+      "end_char": 221,
+      "source_url": "https://www.metmuseum.org/art/collection/search/544320"
+    },
+    {
+      "chunk_id": "EG_SL_006:000",
+      "artifact_id": "EG_SL_006",
+      "title": "Stela of Merneptah",
+      "text": "This round-topped stela is dedicated to a man named Merneptah. He is shown seated before an offering table, holding a water lily blossom symbolizing regeneration. Protective symbols, including wedjat eyes and a shen sign, appear above the figures, along with an offering formula invoking Osiris.",
+      "start_char": 0,
+      "end_char": 295,
+      "source_url": "https://www.metmuseum.org/art/collection/search/556552"
+    },
+    {
+      "chunk_id": "EG_SL_007:000",
+      "artifact_id": "EG_SL_007",
+      "title": "Stela of Djehuty",
+      "text": "In this stela Ahmose, a priest of Montu, makes offerings to his father Djehutymes, his mother, and another male relative (above), and two female relatives (below). The inscription includes a list of other members of the family.",
+      "start_char": 0,
+      "end_char": 227,
+      "source_url": "https://www.metmuseum.org/art/collection/search/554520"
+    },
+    {
+      "chunk_id": "EG_SL_008:000",
+      "artifact_id": "EG_SL_008",
+      "title": "Stela of Two Brothers",
+      "text": "This round-topped stela depicts two brothers, a high official and Dedusobek, standing in adoration before the god Osiris. Between them is a table filled with food offerings, while inscriptions record their titles and roles. The stela was originally painted, although its colors have now faded.",
+      "start_char": 0,
+      "end_char": 293,
+      "source_url": "https://www.metmuseum.org/art/collection/search/556622"
+    },
+    {
+      "chunk_id": "EG_SL_009:000",
+      "artifact_id": "EG_SL_009",
+      "title": "Stela of Itubaal and Masutu",
+      "text": "Limestone stela inscribed with an offering prayer to Osiris on behalf of Itubaal (variant: Itusuty) and the woman Masutu dating to middle Dynasty 18.",
+      "start_char": 0,
+      "end_char": 149,
+      "source_url": "https://www.metmuseum.org/art/collection/search/554792"
+    },
+    {
+      "chunk_id": "EG_SL_012:000",
+      "artifact_id": "EG_SL_012",
+      "title": "Funerary Stela of the God's-Father, Nesikhonsu",
+      "text": "This stela depicts the gods Re-Harakhty and Atum with Nesikhonsu. The inscriptions contain prayers asking the gods to grant peace and protection to Nesikhonsu. Gold leaf remains visible on the figure of Atum and the lotus blossom.",
+      "start_char": 0,
+      "end_char": 230,
+      "source_url": "https://www.metmuseum.org/art/collection/search/548284"
+    },
+    {
+      "chunk_id": "EG_SL_013:000",
+      "artifact_id": "EG_SL_013",
+      "title": "Stela of Aafenmut",
+      "text": "This small wooden stela shows Aafenmut, a Scribe of the Treasury, offering incense to the seated sun god Re-Harakhty. An offering table between them is filled with bread, fruit, and flowers, while the stela is topped by the solar barque supported by the emblems of the east and west.",
+      "start_char": 0,
+      "end_char": 283,
+      "source_url": "https://www.metmuseum.org/art/collection/search/548518"
+    },
+    {
+      "chunk_id": "EG_SL_014:000",
+      "artifact_id": "EG_SL_014",
+      "title": "Stela of Inamennayefnebu",
+      "text": "This wooden stela shows Inamennayefnebu, a son of Saiah and a low-ranking official in the service of Amun, worshiping Re-Harakhty-Atum. An offering stand stands between the two figures, while emblems of the east and west support the curved sky above them. The stela is painted in green, red, yellow, and black on a white gesso ground.",
+      "start_char": 0,
+      "end_char": 334,
+      "source_url": "https://www.metmuseum.org/art/collection/search/557155"
+    },
+    {
+      "chunk_id": "EG_SL_016:000",
+      "artifact_id": "EG_SL_016",
+      "title": "Stela of Senu",
+      "text": "This stela depicts a royal scribe named Senu adoring the deities Imseti and Hapi, two of the four sons of Horus who protected the internal organs that were removed during mummification. Below, Senu's son, a lector priest named Pawahy, recites the funerary prayer inscribed in front of him. Another stela belonging to Senu is displayed in gallery 119 (18.2.5).",
+      "start_char": 0,
+      "end_char": 359,
+      "source_url": "https://www.metmuseum.org/art/collection/search/544794"
+    },
+    {
+      "chunk_id": "EG_SL_018:000",
+      "artifact_id": "EG_SL_018",
+      "title": "Donation Stela of Shebitqo",
+      "text": "This donation stele shows the pharaoh Shebitqo offering two nw-jars to Horus and Hathor. Shebitqo acts on behalf of Patjenef, a local ruler of the eastern Delta and priest of Horus of Pharbaetos, who stands behind him wearing the horizontal feather of the Meshwesh.",
+      "start_char": 0,
+      "end_char": 265,
+      "source_url": "https://www.metmuseum.org/art/collection/search/544881"
+    },
+    {
+      "chunk_id": "EG_SL_019:000",
+      "artifact_id": "EG_SL_019",
+      "title": "Stela of Nebamun",
+      "text": "The stela depicts the overseer of the storehouse of Amun, Nebamun and his wife Huy. They praise the god Osiris who is seated at the left.",
+      "start_char": 0,
+      "end_char": 137,
+      "source_url": "https://www.metmuseum.org/art/collection/search/554786"
+    },
+    {
+      "chunk_id": "EG_SL_021:000",
+      "artifact_id": "EG_SL_021",
+      "title": "Funerary stela of Thutirtis, born of Kerbet (?)",
+      "text": "This stela was found in one of the Ptolemaic brick vaulted tombs in the Lower Asasif at Thebes. Thutirtis whose mother is Kerbet is represented on the left before Atum and on the right before Re-Harakhty. The offering formula is addressed to Re-Harakhty, Atum, Osiris, Isis, Nephthys, and Anubis.",
+      "start_char": 0,
+      "end_char": 296,
+      "source_url": "https://www.metmuseum.org/art/collection/search/551304"
+    },
+    {
+      "chunk_id": "EG_SL_022:000",
+      "artifact_id": "EG_SL_022",
+      "title": "Stela of Seankhptah",
+      "text": "This roughly shaped stela is dedicated to the palace controller Seankhptah, son of Ameny. Sporting a shoulder-length wig, he is shown seated on a block seat with one hand placed flat on his chest. The inscribed texts reveal that the stela was made by Seankhptah’s retainer and hall-keeper Senbebu, son of Sebekre, who is shown standing on the right. Senbebu probably left this monument at the temple of Hathor at Serabit el-Khadim when he accompanied his master Seankhptah on a",
+      "start_char": 0,
+      "end_char": 477,
+      "source_url": "https://www.metmuseum.org/art/collection/search/555870"
+    },
+    {
+      "chunk_id": "EG_SL_022:001",
+      "artifact_id": "EG_SL_022",
+      "title": "Stela of Seankhptah",
+      "text": "at the temple of Hathor at Serabit el-Khadim when he accompanied his master Seankhptah on a royal expedition to Sinai.",
+      "start_char": 386,
+      "end_char": 504,
+      "source_url": "https://www.metmuseum.org/art/collection/search/555870"
+    },
+    {
+      "chunk_id": "EG_SL_023:000",
+      "artifact_id": "EG_SL_023",
+      "title": "Stela of Ptahmose",
+      "text": "This funerary stela, belonging to the royal Scribe and Overseer of the Royal Harem, Ptahmose, contains four separate offering prayers to Ptah-Soker-Osiris. Above the main text, Ptahmose himself appears, worshiping the god. The form, style, and text of the stela point to Memphis as its place of origin.",
+      "start_char": 0,
+      "end_char": 302,
+      "source_url": "https://www.metmuseum.org/art/collection/search/549236"
+    },
+    {
+      "chunk_id": "EG_SL_025:000",
+      "artifact_id": "EG_SL_025",
+      "title": "Stela of Horemkhauef",
+      "text": "This stela was erected in the tomb of Horemkhauef, an official responsible for measuring fields for taxation and a priest of Horus at Hierakonpolis. It describes his mission to the capital to bring back a cult statue of Horus and Isis made in the royal workshops. The stela was made in Hierakonpolis and has a relatively unpolished style.",
+      "start_char": 0,
+      "end_char": 338,
+      "source_url": "https://www.metmuseum.org/art/collection/search/544364"
+    },
+    {
+      "chunk_id": "EG_SL_026:000",
+      "artifact_id": "EG_SL_026",
+      "title": "Stela of Dedu",
+      "text": "This rectangular stela depicts Dedu and his wife Sitsobek standing together before food offerings. Dedu holds a walking stick and a short stave, while Sitsobek holds a mirror with a papyrus-shaped handle. The stela is decorated with painted relief and shows a style characteristic of the transition between Dynasty 11 and Dynasty 12.",
+      "start_char": 0,
+      "end_char": 333,
+      "source_url": "https://www.metmuseum.org/art/collection/search/544346"
+    },
+    {
+      "chunk_id": "EG_SL_027:000",
+      "artifact_id": "EG_SL_027",
+      "title": "Stela",
+      "text": "Fragment of a small limestone stela, whose lower register preserves the names of three persons that are compounded with that of King Ahmose, in which the crescent moon is written in a position that allows this piece to be dated to before year 22 of Ahmose.",
+      "start_char": 0,
+      "end_char": 256,
+      "source_url": "https://www.metmuseum.org/art/collection/search/554785"
+    },
+    {
+      "chunk_id": "EG_SL_028:000",
+      "artifact_id": "EG_SL_028",
+      "title": "Magical Stela with Horus the Child",
+      "text": "This magical stela was commissioned by the priest Esatum to protect against venomous bites and wounds. It depicts the child Horus holding snakes and scorpions, with crocodiles beneath his feet, while inscriptions contain thirteen spells for healing and protection. The stela also recounts how the god Thoth cured Horus through magic and includes imagery of the sun god’s journey through the netherworld.",
+      "start_char": 0,
+      "end_char": 403,
+      "source_url": "https://www.metmuseum.org/art/collection/search/546037"
+    },
+    {
+      "chunk_id": "EG_SL_030:000",
+      "artifact_id": "EG_SL_030",
+      "title": "Tomb Stela of Hetepsi",
+      "text": "Hetepsi's stela was found in a pit for a burial in the general vicinity of the mastaba of Neferseshempepy, good name Senni, at Dendera, and her stela appears to be by the same hand as the decorations of that mastaba. Hetepsi bears the titles King's Sole Ornament and Priestess of Hathor Mistress of Dendera, and in her latter capacity she carries a sistrum in her hand.",
+      "start_char": 0,
+      "end_char": 369,
+      "source_url": "https://www.metmuseum.org/art/collection/search/552234"
+    },
+    {
+      "chunk_id": "BONN_GV175:000",
+      "artifact_id": "BONN_GV175",
+      "title": "Painted Wooden Coffin Lid",
+      "text": "This painted coffin lid preserves scenes connected with the journey into the afterlife. Below the broad collar, Anubis attends the deceased on a funerary bier. Another scene depicts Osiris presiding over the dead. The lid is on loan to the Egyptian Museum Bonn from the Museum of the City of Grevenbroich.",
+      "start_char": 0,
+      "end_char": 305,
+      "source_url": "https://doi.org/10.60507/FK2/E64TPM"
+    },
+    {
+      "chunk_id": "NEFERTITI_REPLICA:000",
+      "artifact_id": "NEFERTITI_REPLICA",
+      "title": "Nefertiti — Replica Bust",
+      "text": "A three-dimensional scan of a replica of the famous bust of Nefertiti. The model preserves the visible shape and painted surface of the replica, including the tall crown and broad collar. It is displayed as an educational 3D exhibit and is not a scan of the ancient original.",
+      "start_char": 0,
+      "end_char": 275,
+      "source_url": "https://github.com/mrdoob/three.js/tree/dev/examples/models/gltf/Nefertiti"
+    },
+    {
+      "chunk_id": "BM_AMUN_RAM:000",
+      "artifact_id": "BM_AMUN_RAM",
+      "title": "Ram of Amun",
+      "text": "A recumbent ram shelters a small figure of King Taharqo between its front legs. The carved curls, legs and inscribed base can be examined in this photogrammetric model.",
+      "start_char": 0,
+      "end_char": 168,
+      "source_url": "https://github.com/BritishMuseumDH/amunRam"
+    },
+    {
+      "chunk_id": "BM_AMENHOTEP_HEAD:000",
+      "artifact_id": "BM_AMENHOTEP_HEAD",
+      "title": "Colossal Head of Amenhotep III",
+      "text": "This surviving head fragment preserves the royal face, ear and beard. Its broken edges belong to the surviving sculpture; the missing body has not been reconstructed.",
+      "start_char": 0,
+      "end_char": 166,
+      "source_url": "https://github.com/BritishMuseumDH/colossalAmenhotepIII"
+    },
+    {
+      "chunk_id": "BM_MENTUEMHAT:000",
+      "artifact_id": "BM_MENTUEMHAT",
+      "title": "Mentuemhat with a Stela",
+      "text": "Mentuemhat kneels behind an inscribed stela. This sculptural form presents the owner together with a surface for religious imagery and inscriptions.",
+      "start_char": 0,
+      "end_char": 148,
+      "source_url": "https://github.com/BritishMuseumDH/mentuemhatStatue"
+    },
+    {
+      "chunk_id": "BM_PRUDHOE_LION:000",
+      "artifact_id": "BM_PRUDHOE_LION",
+      "title": "Prudhoe Lion — Left Model",
+      "text": "A recumbent lion with its head turned toward the viewer. The rounded body, paws and weathered surface are preserved in the British Museum model.",
+      "start_char": 0,
+      "end_char": 144,
+      "source_url": "https://github.com/BritishMuseumDH/prudhoeLionLeft"
+    },
+    {
+      "chunk_id": "BM_RAMESSES_IV:000",
+      "artifact_id": "BM_RAMESSES_IV",
+      "title": "Kneeling Statue of Ramesses IV",
+      "text": "The king kneels with his hands extended before him. Examine the carved face, royal headdress and the surviving stone surface from different angles.",
+      "start_char": 0,
+      "end_char": 147,
+      "source_url": "https://github.com/BritishMuseumDH/ramesesIV"
+    },
+    {
+      "chunk_id": "BM_SEKHMET_EA60:000",
+      "artifact_id": "BM_SEKHMET_EA60",
+      "title": "Seated Sekhmet",
+      "text": "Sekhmet appears as a seated woman with a lioness head. The model preserves the surviving statue and its damage, including the upper part of the head.",
+      "start_char": 0,
+      "end_char": 149,
+      "source_url": "https://github.com/BritishMuseumDH/sekhmetEA60"
+    },
+    {
+      "chunk_id": "BM_ROY:000",
+      "artifact_id": "BM_ROY",
+      "title": "Roy, High Priest of Amun",
+      "text": "Roy, High Priest of Amun, holds a Hathor-headed sistrum. The back pillar carries invocations to Amun-Ra and Mut. The lower section of the ancient sculpture is lost; the source describes a restored display height.",
+      "start_char": 0,
+      "end_char": 212,
+      "source_url": "https://github.com/BritishMuseumDH/statueOfRy"
+    },
+    {
+      "chunk_id": "BM_TAWERET:000",
+      "artifact_id": "BM_TAWERET",
+      "title": "Taweret",
+      "text": "This small figure depicts Taweret with a hippopotamus-like head and upright body. Its mottled surface and surviving carved details come from the photographed object.",
+      "start_char": 0,
+      "end_char": 165,
+      "source_url": "https://github.com/BritishMuseumDH/tawaretPink"
+    },
+    {
+      "chunk_id": "BM_ISIS_HORUS:000",
+      "artifact_id": "BM_ISIS_HORUS",
+      "title": "Isis with Horus",
+      "text": "Isis sits holding the child Horus on her lap. The model preserves the visible figure, seat and surface of the object published in the British Museum 3D repository.",
+      "start_char": 0,
+      "end_char": 163,
+      "source_url": "https://github.com/BritishMuseumDH/isisHorusAL"
+    },
+    {
+      "chunk_id": "BERLIN_TAIRKAP_OUTER:000",
+      "artifact_id": "BERLIN_TAIRKAP_OUTER",
+      "title": "Ta-ir-kap — Outer Coffin",
+      "text": "This is the outer anthropoid coffin of Ta-ir-kap from Thebes, now in the Egyptian Museum and Papyrus Collection in Berlin. The matching lid and case preserve painted decoration and inscriptions. It belongs to a nested funerary ensemble; the inner and outer coffins are distinct objects from the same burial.",
+      "start_char": 0,
+      "end_char": 307,
+      "source_url": "https://doi.org/10.60507/FK2/5Q848X"
+    },
+    {
+      "chunk_id": "BERLIN_TAIRKAP_INNER:000",
+      "artifact_id": "BERLIN_TAIRKAP_INNER",
+      "title": "Ta-ir-kap — Inner Coffin",
+      "text": "This is the inner anthropoid coffin of Ta-ir-kap from Thebes, now in the Egyptian Museum and Papyrus Collection in Berlin. The matching lid and case preserve painted decoration and inscriptions. It belongs to a nested funerary ensemble; the inner and outer coffins are distinct objects from the same burial.",
+      "start_char": 0,
+      "end_char": 307,
+      "source_url": "https://doi.org/10.60507/FK2/I9MDEV"
+    }
+  ]
+}

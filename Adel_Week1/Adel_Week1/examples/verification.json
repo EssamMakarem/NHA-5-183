@@ -1,0 +1,537 @@
+{
+  "evaluation_type": "development_smoke_questions_not_unseen_accuracy",
+  "passed": 17,
+  "total": 17,
+  "corpus_sha256": "09a7638753063837330c3d7f96b77c8aa5638e1809065e6f078c0a75885fa430",
+  "indexed_chunks": 61,
+  "records": 67,
+  "limitations": "These cases were used during development. They are not a broad independent benchmark or a guarantee for every English question.",
+  "results": [
+    {
+      "case": "S1",
+      "passed": true,
+      "errors": [],
+      "expected_supported": true,
+      "response": {
+        "artifact_id": "NEFERTITI_REPLICA",
+        "question": "Is this exhibit a scan of the ancient original?",
+        "status": "answered",
+        "answer": "It is displayed as an educational 3D exhibit and is not a scan of the ancient original. [1]",
+        "sources": [
+          {
+            "label": "[1]",
+            "artifact_id": "NEFERTITI_REPLICA",
+            "title": "Nefertiti — Replica Bust",
+            "url": "https://github.com/mrdoob/three.js/tree/dev/examples/models/gltf/Nefertiti",
+            "evidence": "It is displayed as an educational 3D exhibit and is not a scan of the ancient original."
+          }
+        ],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "NEFERTITI_REPLICA:000",
+            "artifact_id": "NEFERTITI_REPLICA",
+            "title": "Nefertiti — Replica Bust",
+            "text": "A three-dimensional scan of a replica of the famous bust of Nefertiti. The model preserves the visible shape and painted surface of the replica, including the tall crown and broad collar. It is displayed as an educational 3D exhibit and is not a scan of the ancient original.",
+            "start_char": 0,
+            "end_char": 275,
+            "source_url": "https://github.com/mrdoob/three.js/tree/dev/examples/models/gltf/Nefertiti",
+            "similarity": 0.535314
+          }
+        ],
+        "generator_used": true,
+        "generated_candidate": "not enough information",
+        "answer_method": "explicit_source_confirmation",
+        "reason": "The displayed answer is a verbatim source sentence; answer_method records how it was selected."
+      }
+    },
+    {
+      "case": "S2",
+      "passed": true,
+      "errors": [],
+      "expected_supported": true,
+      "response": {
+        "artifact_id": "BM_TAWERET",
+        "question": "What animal does Taweret's head resemble?",
+        "status": "answered",
+        "answer": "This small figure depicts Taweret with a hippopotamus-like head and upright body. [1]",
+        "sources": [
+          {
+            "label": "[1]",
+            "artifact_id": "BM_TAWERET",
+            "title": "Taweret",
+            "url": "https://github.com/BritishMuseumDH/tawaretPink",
+            "evidence": "This small figure depicts Taweret with a hippopotamus-like head and upright body."
+          }
+        ],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "BM_TAWERET:000",
+            "artifact_id": "BM_TAWERET",
+            "title": "Taweret",
+            "text": "This small figure depicts Taweret with a hippopotamus-like head and upright body. Its mottled surface and surviving carved details come from the photographed object.",
+            "start_char": 0,
+            "end_char": 165,
+            "source_url": "https://github.com/BritishMuseumDH/tawaretPink",
+            "similarity": 0.713047
+          }
+        ],
+        "generator_used": true,
+        "generated_candidate": "hippopotamus",
+        "answer_method": "generated_span_with_source_sentence",
+        "reason": "The displayed answer is a verbatim source sentence; answer_method records how it was selected."
+      }
+    },
+    {
+      "case": "S3",
+      "passed": true,
+      "errors": [],
+      "expected_supported": true,
+      "response": {
+        "artifact_id": "BM_AMUN_RAM",
+        "question": "Which king is between the ram's front legs?",
+        "status": "answered",
+        "answer": "A recumbent ram shelters a small figure of King Taharqo between its front legs. [1]",
+        "sources": [
+          {
+            "label": "[1]",
+            "artifact_id": "BM_AMUN_RAM",
+            "title": "Ram of Amun",
+            "url": "https://github.com/BritishMuseumDH/amunRam",
+            "evidence": "A recumbent ram shelters a small figure of King Taharqo between its front legs."
+          }
+        ],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "BM_AMUN_RAM:000",
+            "artifact_id": "BM_AMUN_RAM",
+            "title": "Ram of Amun",
+            "text": "A recumbent ram shelters a small figure of King Taharqo between its front legs. The carved curls, legs and inscribed base can be examined in this photogrammetric model.",
+            "start_char": 0,
+            "end_char": 168,
+            "source_url": "https://github.com/BritishMuseumDH/amunRam",
+            "similarity": 0.538611
+          }
+        ],
+        "generator_used": true,
+        "generated_candidate": "King Taharqo",
+        "answer_method": "generated_span_with_source_sentence",
+        "reason": "The displayed answer is a verbatim source sentence; answer_method records how it was selected."
+      }
+    },
+    {
+      "case": "S4",
+      "passed": true,
+      "errors": [],
+      "expected_supported": true,
+      "response": {
+        "artifact_id": "EG_PA_004",
+        "question": "What was paid to the workforce as salaries?",
+        "status": "answered",
+        "answer": "This papyrus fragment contains accounts of grain and dates given as salaries to a workforce. [1]",
+        "sources": [
+          {
+            "label": "[1]",
+            "artifact_id": "EG_PA_004",
+            "title": "Accounts of workforce salaries",
+            "url": "https://www.metmuseum.org/art/collection/search/545455",
+            "evidence": "This papyrus fragment contains accounts of grain and dates given as salaries to a workforce."
+          }
+        ],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "EG_PA_004:000",
+            "artifact_id": "EG_PA_004",
+            "title": "Accounts of workforce salaries",
+            "text": "This papyrus fragment contains accounts of grain and dates given as salaries to a workforce. It records payments made on specific days around the end of the year and the beginning of the new year.",
+            "start_char": 0,
+            "end_char": 196,
+            "source_url": "https://www.metmuseum.org/art/collection/search/545455",
+            "similarity": 0.477521
+          }
+        ],
+        "generator_used": true,
+        "generated_candidate": "grain and dates",
+        "answer_method": "generated_span_with_source_sentence",
+        "reason": "The displayed answer is a verbatim source sentence; answer_method records how it was selected."
+      }
+    },
+    {
+      "case": "S5",
+      "passed": true,
+      "errors": [],
+      "expected_supported": true,
+      "response": {
+        "artifact_id": "EG_PA_003",
+        "question": "Can the letter's content be determined?",
+        "status": "answered",
+        "answer": "However, not enough of it remains to determine anything about its content. [1]",
+        "sources": [
+          {
+            "label": "[1]",
+            "artifact_id": "EG_PA_003",
+            "title": "Papyrus fragment",
+            "url": "https://www.metmuseum.org/art/collection/search/545457",
+            "evidence": "However, not enough of it remains to determine anything about its content."
+          }
+        ],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "EG_PA_003:000",
+            "artifact_id": "EG_PA_003",
+            "title": "Papyrus fragment",
+            "text": "According to the style of writing, this letter was written during the Middle Kingdom. However, not enough of it remains to determine anything about its content. Both sides were written on a papyrus that was used before.",
+            "start_char": 0,
+            "end_char": 219,
+            "source_url": "https://www.metmuseum.org/art/collection/search/545457",
+            "similarity": 0.462426
+          }
+        ],
+        "generator_used": true,
+        "generated_candidate": "not enough",
+        "answer_method": "generated_span_with_source_sentence",
+        "reason": "The displayed answer is a verbatim source sentence; answer_method records how it was selected."
+      }
+    },
+    {
+      "case": "S6",
+      "passed": true,
+      "errors": [],
+      "expected_supported": true,
+      "response": {
+        "artifact_id": "EG_PA_008",
+        "question": "Who wrote the letter and to whom?",
+        "status": "answered",
+        "answer": "This papyrus letter was written by a man named Tet to his lord, Djehuti, asking him to correct a situation caused by insulting a dependent of the high priest of Heliopolis. [1]",
+        "sources": [
+          {
+            "label": "[1]",
+            "artifact_id": "EG_PA_008",
+            "title": "Letter written in hieratic script on papyrus",
+            "url": "https://www.metmuseum.org/art/collection/search/544847",
+            "evidence": "This papyrus letter was written by a man named Tet to his lord, Djehuti, asking him to correct a situation caused by insulting a dependent of the high priest of Heliopolis."
+          }
+        ],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "EG_PA_008:000",
+            "artifact_id": "EG_PA_008",
+            "title": "Letter written in hieratic script on papyrus",
+            "text": "This papyrus letter was written by a man named Tet to his lord, Djehuti, asking him to correct a situation caused by insulting a dependent of the high priest of Heliopolis. The letter was folded and addressed to the recipient on the back of the sheet.",
+            "start_char": 0,
+            "end_char": 251,
+            "source_url": "https://www.metmuseum.org/art/collection/search/544847",
+            "similarity": 0.44287
+          }
+        ],
+        "generator_used": true,
+        "generated_candidate": "Tet",
+        "answer_method": "generated_span_with_source_sentence",
+        "reason": "The displayed answer is a verbatim source sentence; answer_method records how it was selected."
+      }
+    },
+    {
+      "case": "S7",
+      "passed": true,
+      "errors": [],
+      "expected_supported": true,
+      "response": {
+        "artifact_id": "EG_SL_028",
+        "question": "What was the magical stela meant to protect against?",
+        "status": "answered",
+        "answer": "This magical stela was commissioned by the priest Esatum to protect against venomous bites and wounds. [1]",
+        "sources": [
+          {
+            "label": "[1]",
+            "artifact_id": "EG_SL_028",
+            "title": "Magical Stela with Horus the Child",
+            "url": "https://www.metmuseum.org/art/collection/search/546037",
+            "evidence": "This magical stela was commissioned by the priest Esatum to protect against venomous bites and wounds."
+          }
+        ],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "EG_SL_028:000",
+            "artifact_id": "EG_SL_028",
+            "title": "Magical Stela with Horus the Child",
+            "text": "This magical stela was commissioned by the priest Esatum to protect against venomous bites and wounds. It depicts the child Horus holding snakes and scorpions, with crocodiles beneath his feet, while inscriptions contain thirteen spells for healing and protection. The stela also recounts how the god Thoth cured Horus through magic and includes imagery of the sun god’s journey through the netherworld.",
+            "start_char": 0,
+            "end_char": 403,
+            "source_url": "https://www.metmuseum.org/art/collection/search/546037",
+            "similarity": 0.632376
+          }
+        ],
+        "generator_used": true,
+        "generated_candidate": "venomous bites and wounds",
+        "answer_method": "generated_span_with_source_sentence",
+        "reason": "The displayed answer is a verbatim source sentence; answer_method records how it was selected."
+      }
+    },
+    {
+      "case": "S8",
+      "passed": true,
+      "errors": [],
+      "expected_supported": true,
+      "response": {
+        "artifact_id": "EG_PA_030",
+        "question": "How many columns does Imhotep's papyrus contain?",
+        "status": "answered",
+        "answer": "It contains 182 columns of spells, incantations, and prayers intended to help him safely transition to eternal life. [1]",
+        "sources": [
+          {
+            "label": "[1]",
+            "artifact_id": "EG_PA_030",
+            "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes)",
+            "url": "https://www.metmuseum.org/art/collection/search/551786",
+            "evidence": "It contains 182 columns of spells, incantations, and prayers intended to help him safely transition to eternal life."
+          }
+        ],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "EG_PA_030:000",
+            "artifact_id": "EG_PA_030",
+            "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes)",
+            "text": "This papyrus is a Book of Coming Forth by Day, commonly known as a Book of the Dead, inscribed for Imhotep, a priest of the god Horus. It contains 182 columns of spells, incantations, and prayers intended to help him safely transition to eternal life. The text is written in hieratic script and illustrated with vignettes and drawings.",
+            "start_char": 0,
+            "end_char": 335,
+            "source_url": "https://www.metmuseum.org/art/collection/search/551786",
+            "similarity": 0.670478
+          }
+        ],
+        "generator_used": true,
+        "generated_candidate": "182",
+        "answer_method": "generated_span_with_source_sentence",
+        "reason": "The displayed answer is a verbatim source sentence; answer_method records how it was selected."
+      }
+    },
+    {
+      "case": "U1",
+      "passed": true,
+      "errors": [],
+      "expected_supported": false,
+      "response": {
+        "artifact_id": "BM_TAWERET",
+        "question": "What is its height in centimeters?",
+        "status": "insufficient_evidence",
+        "answer": "I do not have enough information in the supplied sources to answer this question.",
+        "sources": [],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "BM_TAWERET:000",
+            "artifact_id": "BM_TAWERET",
+            "title": "Taweret",
+            "text": "This small figure depicts Taweret with a hippopotamus-like head and upright body. Its mottled surface and surviving carved details come from the photographed object.",
+            "start_char": 0,
+            "end_char": 165,
+            "source_url": "https://github.com/BritishMuseumDH/tawaretPink",
+            "similarity": 0.133838
+          }
+        ],
+        "generator_used": false,
+        "generated_candidate": null,
+        "reason": "No measurements are supplied for this artifact."
+      }
+    },
+    {
+      "case": "U2",
+      "passed": true,
+      "errors": [],
+      "expected_supported": false,
+      "response": {
+        "artifact_id": "BM_AMUN_RAM",
+        "question": "What was its latest auction price?",
+        "status": "insufficient_evidence",
+        "answer": "I do not have enough information in the supplied sources to answer this question.",
+        "sources": [],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "BM_AMUN_RAM:000",
+            "artifact_id": "BM_AMUN_RAM",
+            "title": "Ram of Amun",
+            "text": "A recumbent ram shelters a small figure of King Taharqo between its front legs. The carved curls, legs and inscribed base can be examined in this photogrammetric model.",
+            "start_char": 0,
+            "end_char": 168,
+            "source_url": "https://github.com/BritishMuseumDH/amunRam",
+            "similarity": 0.073558
+          }
+        ],
+        "generator_used": false,
+        "generated_candidate": null,
+        "reason": "No financial value is supplied for this artifact."
+      }
+    },
+    {
+      "case": "U3",
+      "passed": true,
+      "errors": [],
+      "expected_supported": false,
+      "response": {
+        "artifact_id": "NEFERTITI_REPLICA",
+        "question": "What is its current room number?",
+        "status": "insufficient_evidence",
+        "answer": "I do not have enough information in the supplied sources to answer this question.",
+        "sources": [],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "NEFERTITI_REPLICA:000",
+            "artifact_id": "NEFERTITI_REPLICA",
+            "title": "Nefertiti — Replica Bust",
+            "text": "A three-dimensional scan of a replica of the famous bust of Nefertiti. The model preserves the visible shape and painted surface of the replica, including the tall crown and broad collar. It is displayed as an educational 3D exhibit and is not a scan of the ancient original.",
+            "start_char": 0,
+            "end_char": 275,
+            "source_url": "https://github.com/mrdoob/three.js/tree/dev/examples/models/gltf/Nefertiti",
+            "similarity": 0.095953
+          }
+        ],
+        "generator_used": false,
+        "generated_candidate": null,
+        "reason": "The static knowledge file does not establish current information."
+      }
+    },
+    {
+      "case": "U4",
+      "passed": true,
+      "errors": [],
+      "expected_supported": false,
+      "response": {
+        "artifact_id": "UNKNOWN_999",
+        "question": "Who made this object?",
+        "status": "insufficient_evidence",
+        "answer": "I do not have enough information in the supplied sources to answer this question.",
+        "sources": [],
+        "retrieved_chunks": [],
+        "generator_used": false,
+        "generated_candidate": null,
+        "reason": "Unknown artifact ID or no usable English text."
+      }
+    },
+    {
+      "case": "U5",
+      "passed": true,
+      "errors": [],
+      "expected_supported": false,
+      "response": {
+        "artifact_id": "EG_PA_011",
+        "question": "What does this papyrus say?",
+        "status": "insufficient_evidence",
+        "answer": "I do not have enough information in the supplied sources to answer this question.",
+        "sources": [],
+        "retrieved_chunks": [],
+        "generator_used": false,
+        "generated_candidate": null,
+        "reason": "Unknown artifact ID or no usable English text."
+      }
+    },
+    {
+      "case": "U6",
+      "passed": true,
+      "errors": [],
+      "expected_supported": false,
+      "response": {
+        "artifact_id": "BM_AMUN_RAM",
+        "question": "What color is the ram?",
+        "status": "insufficient_evidence",
+        "answer": "I do not have enough information in the supplied sources to answer this question.",
+        "sources": [],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "BM_AMUN_RAM:000",
+            "artifact_id": "BM_AMUN_RAM",
+            "title": "Ram of Amun",
+            "text": "A recumbent ram shelters a small figure of King Taharqo between its front legs. The carved curls, legs and inscribed base can be examined in this photogrammetric model.",
+            "start_char": 0,
+            "end_char": 168,
+            "source_url": "https://github.com/BritishMuseumDH/amunRam",
+            "similarity": 0.303192
+          }
+        ],
+        "generator_used": true,
+        "generated_candidate": "not enough information",
+        "reason": "The generated answer could not be matched to a source sentence."
+      }
+    },
+    {
+      "case": "U7",
+      "passed": true,
+      "errors": [],
+      "expected_supported": false,
+      "response": {
+        "artifact_id": "BM_TAWERET",
+        "question": "Who carved this figurine?",
+        "status": "insufficient_evidence",
+        "answer": "I do not have enough information in the supplied sources to answer this question.",
+        "sources": [],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "BM_TAWERET:000",
+            "artifact_id": "BM_TAWERET",
+            "title": "Taweret",
+            "text": "This small figure depicts Taweret with a hippopotamus-like head and upright body. Its mottled surface and surviving carved details come from the photographed object.",
+            "start_char": 0,
+            "end_char": 165,
+            "source_url": "https://github.com/BritishMuseumDH/tawaretPink",
+            "similarity": 0.407808
+          }
+        ],
+        "generator_used": true,
+        "generated_candidate": "not enough",
+        "reason": "The generated answer could not be matched to a source sentence."
+      }
+    },
+    {
+      "case": "U8",
+      "passed": true,
+      "errors": [],
+      "expected_supported": false,
+      "response": {
+        "artifact_id": "EG_PA_004",
+        "question": "How much gold was given as workforce salaries?",
+        "status": "insufficient_evidence",
+        "answer": "I do not have enough information in the supplied sources to answer this question.",
+        "sources": [],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "EG_PA_004:000",
+            "artifact_id": "EG_PA_004",
+            "title": "Accounts of workforce salaries",
+            "text": "This papyrus fragment contains accounts of grain and dates given as salaries to a workforce. It records payments made on specific days around the end of the year and the beginning of the new year.",
+            "start_char": 0,
+            "end_char": 196,
+            "source_url": "https://www.metmuseum.org/art/collection/search/545455",
+            "similarity": 0.369814
+          }
+        ],
+        "generator_used": true,
+        "generated_candidate": "not enough",
+        "reason": "The generated answer could not be matched to a source sentence."
+      }
+    },
+    {
+      "case": "U9",
+      "passed": true,
+      "errors": [],
+      "expected_supported": false,
+      "response": {
+        "artifact_id": "BM_TAWERET",
+        "question": "Is this figurine 25 cm tall?",
+        "status": "insufficient_evidence",
+        "answer": "I do not have enough information in the supplied sources to answer this question.",
+        "sources": [],
+        "retrieved_chunks": [
+          {
+            "chunk_id": "BM_TAWERET:000",
+            "artifact_id": "BM_TAWERET",
+            "title": "Taweret",
+            "text": "This small figure depicts Taweret with a hippopotamus-like head and upright body. Its mottled surface and surviving carved details come from the photographed object.",
+            "start_char": 0,
+            "end_char": 165,
+            "source_url": "https://github.com/BritishMuseumDH/tawaretPink",
+            "similarity": 0.321199
+          }
+        ],
+        "generator_used": false,
+        "generated_candidate": null,
+        "reason": "No measurements are supplied for this artifact."
+      }
+    }
+  ]
+}
